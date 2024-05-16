@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/home-page-styles.css">
+  <script src="./assets/scripts/script.js"></script>
+  <title>Harry Potter</title>
+</head>
+<body>
+  <nav class="s-menu">
+    <ul>
+      <li class="s-menu__item">
+        <a href="/">Página Inicial</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="#">Harry Potter</a>
+      </li>
+      <li class="s-menu__item s-menu__icon">
+        <img src="./assets/images/2730273_harry_harrys_lightning_potter_scar_icon (1).png" alt="raio">
+      </li>
+      <li class="s-menu__item">
+        <a href="#">Hermione Granger</a>
+      </li>
+      <li class="s-menu__item">
+        <a href="#">Ron Weasley</a>
+      </li>
+    </ul>
+  </nav>
+  <div class="s-container">
+    <div class="s-cards-carousel" style="transform: translateZ(-40vw) rotateY(0deg);">
+      <a href="./pages/harrypotter/harrypotter.html" class="s-card" id="spider-man-01">
+        <img class="s-card__background" src="./assets/images/harry-potter-phil.webp">
+        <img class="s-card__image" src="./assets/images/animationharry.png" alt="Harry Potter">
+        <h2 class="s-card__title">Harry Potter</h2>
+      </a>
+      <a href="./pages/hermionegranger/hermionegranger.html" class="s-card" id="spider-man-02">
+        <img class="s-card__background" src="./assets/images/Latest_29.webp">
+        <img class="s-card__image" src="./assets/images/hermioneanimation.png" alt="Hermione Granger">
+        <h2 class="s-card__title">Hermione Granger</h2>
+      </a>
+      <a href="./pages/ronweasley/ronweasley.html" class="s-card" id="spider-man-03">
+        <img class="s-card__background" src="./assets/images/ron weaslew.jpg">
+        <img class="s-card__image" src="./assets/images/pngwing.com.png" alt="Ron Weasley">
+        <h2 class="s-card__title">Ron Weasley</h2>
+      </a>
+    </div>
+  </div>
+
+  <div class="s-controller">
+    <div id="1" onclick="selectCarouselItem(this)" class="s-controller__button s-controller__button--active">
+      01
+    </div>
+    <div id="2" onclick="selectCarouselItem(this)" class="s-controller__button">
+      02
+    </div>
+    <div id="3" onclick="selectCarouselItem(this)" class="s-controller__button">
+      03
+    </div>
+    <div class="s-controller__line"></div>
+  </div>
+</body>
+</html>
